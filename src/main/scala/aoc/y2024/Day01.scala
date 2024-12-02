@@ -1,7 +1,5 @@
 package aoc.y2024
 
-import aoc.y2024.Day01.getInputFile
-
 object Day01 extends Puzzle2024[List[(Int, Int)], Int, Int] {
 
   override val input: List[(Int, Int)] = getInputFile
