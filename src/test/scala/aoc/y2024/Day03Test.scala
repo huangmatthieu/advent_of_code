@@ -12,7 +12,7 @@ class Day03Test extends AnyFlatSpec with Matchers {
     "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))"
   )
 
-  "Day02 - 2024" should "solve first part" in {
+  "Day03 - 2024" should "solve first part" in {
     Day03.part1(testInputPart1) should equal(161)
   }
 
