@@ -2,7 +2,6 @@ package aoc.y2024
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
-import org.scalatest.funsuite.AnyFunSuiteLike
 
 class Day04Test extends AnyFlatSpec with Matchers {
 
