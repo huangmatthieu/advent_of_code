@@ -5,10 +5,8 @@ object Day06 extends Puzzle2024[List[List[Char]], Int, Int] {
   override val input: List[List[Char]] = getInputFile.map(_.toList)
 
   case class Guard(posX: Int, posY: Int, direction: Int, map: List[List[Char]]){
-    private def isObstable(x: Int, y: Int): Boolean = {
-      map(y)(x) == '#'
-    }
-    
+    private def isObstable(x: Int, y: Int): Boolean = map(y)(x) == '#'
+
     def isInside(x: Int, y: Int): Boolean = x >= 0 && x < map.head.length && y >= 0 && y < map.length
 
     def move: Guard =
